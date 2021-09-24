@@ -7,8 +7,12 @@ src/objs
 # cmake
 cmake/src/**
 cmake/CMakeFiles/**
+cmake/*/Debug/**
+cmake/*/Release/**
 cmake/*.sln
 cmake/*.vcxproj*
+cmake/**/*.exe
+cmake/**/*.lib
 cmake/CMakeCache.txt
 cmake/cmake_install.cmake
 cmake/CPackConfig.cmake
