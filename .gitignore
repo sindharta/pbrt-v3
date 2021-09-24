@@ -7,10 +7,10 @@ src/objs
 # cmake
 cmake/src/**
 cmake/CMakeFiles/**
+cmake/Debug/**
+cmake/Release/**
 cmake/*/Debug/**
 cmake/*/Release/**
-cmake/*.sln
-cmake/*.vcxproj*
 cmake/**/*.exe
 cmake/**/*.lib
 cmake/CMakeCache.txt
@@ -19,3 +19,8 @@ cmake/CPackConfig.cmake
 cmake/CPackSourceConfig.cmake
 cmake/CTestTestfile.cmake
 cmake/CMakeCache.txt
+
+# Visual Studio files
+cmake/*.sln
+cmake/*.vcxproj*
+cmake/.vs/**
