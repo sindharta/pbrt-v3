@@ -113,6 +113,17 @@ click "Generate"; when that's done, there will be a "PBRT-V3.sln" file in
 the build directory you specified. Open that up in MSVC and you're ready to
 go.
 
+#### Using Command Prompt ###
+
+Open command prompt and type the following:
+
+``` 
+$ cd pbrt-v3/cmake
+# VsDevCmd_2019.bat
+$ cmake -G "Visual Studio 16 2019" -A x64 ..
+$ msbuild PBRT-V3.sln /t:Build /p:Configuration=Release /p:Platform=x64 /m /nologo
+```  
+
 ### Build Configurations ###
 
 There are two configuration settings that must be set when configuring the
